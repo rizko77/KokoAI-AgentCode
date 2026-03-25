@@ -1,0 +1,89 @@
+# ============================================================
+# KokoAI AgentCode - .gitignore
+# Siap untuk di-push ke GitHub
+# ============================================================
+
+# === Virtual Environment (JANGAN di-push) ===
+venv/
+.venv/
+env/
+ENV/
+.env/
+
+# === Environment variables (rahasia) ===
+.env
+*.env.local
+*.env.*.local
+
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# === PySastrawi & NLP model cache ===
+*.model
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.pt
+*.bin
+*.safetensors
+models/
+checkpoints/
+
+# === HuggingFace / transformers cache ===
+~/.cache/huggingface/
+.cache/
+
+# === NLTK data ===
+nltk_data/
+
+# === Scrapy ===
+.scrapy/
+
+# === Logs ===
+*.log
+logs/
+*.log.*
+
+# === Build / Distribution ===
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# === OS ===
+desktop.ini
+*.lnk
+
+# === Testing ===
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# === Data & Workspace (pilihan — uncomment jika tidak mau push) ===
+data/
+workspace/
+
+# === Backup ===
+backup/
+*.bak
+*.backup
+*.old
